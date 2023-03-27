@@ -58,7 +58,6 @@ a {
 }
 
 .news {
-    background-color: rgb(43, 43, 43);
     display: table;
     padding: 3%;
     line-height: 20px;
@@ -137,6 +136,7 @@ a {
     margin-top: 1%;
     margin-bottom: 2%;
     margin-left: 5%;
+    margin-right: 5%;
 }
 
 .vane_cards {
@@ -182,6 +182,12 @@ a {
     .vane_cards {
         text-align: center;
     }
+
+.active {
+    font-size: 20px;
+    width: 127px;
+    height: 44px;
+}
 
         .news {
             font-size: 10px;
@@ -235,18 +241,29 @@ a {
     }
 
     .news_font_1 {
-        font-size: 20px;
+        font-size: 23px;
     }
     
     .news_font_2 {
-         font-size: 14px;
+         font-size: 17px;
      }
     
     .news_font_3 {
-         font-size: 10px;
+         font-size: 13px;
     }
 
     .news_img_1 {
         width: 260px;
     }
+
+        .navButton {
+            width: 107px;
+            height: 37px;
+        }
+
+.active {
+    font-size: 20px;
+    width: 107px;
+    height: 37px;
+}
 }
