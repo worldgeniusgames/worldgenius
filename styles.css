@@ -1,269 +1,307 @@
 @font-face {
-    font-family: Mariupol-Regular;
-    src: url(Fonts/Mariupol-Regular.ttf);
+  font-family: Mariupol-Regular;
+  src: url(Fonts/Mariupol-Regular.ttf);
 }
 
 @font-face {
-    font-family: Mariupol-Bold;
-    src: url(Fonts/Mariupol-Bold.ttf);
+  font-family: Mariupol-Bold;
+  src: url(Fonts/Mariupol-Bold.ttf);
 }
 
 .active {
-    background-color: rgb(255, 255, 255);
-    border: none;
-    color: rgb(0, 0, 0);
-    font-family: Mariupol-Regular;
-    font-size: 20px;
-    width: 137px;
-    height: 44px;
-    transition-duration: 0.2s;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: rgb(0, 0, 0);
+  font-family: Mariupol-Regular;
+  font-size: 20px;
+  width: 137px;
+  height: 44px;
+  transition-duration: 0.2s;
 }
 
 body {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 li {
-    margin-top: 6px;
-    margin-bottom: 6px;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 
 a {
-    text-decoration: none;
-    display: inline;
-    color: white;
-    font-size: 15px;
+  text-decoration: none;
+  display: inline;
+  color: white;
+  font-size: 15px;
 }
 
 .header {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .main {
-    text-align: left;
-    font-family: Mariupol-Regular;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 5%;
+  text-align: left;
+  font-family: Mariupol-Regular;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .mini {
-    text-align: center;
-    font-family: Mariupol-Regular;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    margin-left: 5%;
-    margin-right: 5%;
+  text-align: center;
+  font-family: Mariupol-Regular;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .news {
-    display: table;
-    padding: 3%;
-    line-height: 20px;
+  display: table;
+  padding: 3%;
+  line-height: 20px;
 }
 
 .news_text {
-    display: flex;
-    font-family: Mariupol-Regular;
-    margin-left: 5%;
-    margin-right: 5%;
+  display: flex;
+  font-family: Mariupol-Regular;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .end_news {
-    display: block;
-    font-family: Mariupol-Regular;
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: center;
+  display: block;
+  font-family: Mariupol-Regular;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
 }
 
 .new {
-    background-color: black;
+  background-color: black;
+}
+
+.img_new {
+  width: 400px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .mini-headers {
-    margin-left: 1%;
+  margin-left: 1%;
 }
 
 .nav {
-    text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .navButton {
-    background-color: black;
-    border: none;
-    color: white;
-    font-family: Mariupol-Regular;
-    font-size: 20px;
-    width: 137px;
-    height: 44px;
-    transition-duration: 0.2s;
+  background-color: black;
+  border: none;
+  color: white;
+  font-family: Mariupol-Regular;
+  font-size: 20px;
+  width: 137px;
+  height: 44px;
+  transition-duration: 0.2s;
 }
 
 .navButton:hover {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 .avatars {
-    margin-left: 13px;
-    margin-right: 13px;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
+  margin-left: 13px;
+  margin-right: 13px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
 }
 
 .projects {
-    text-align: center;
+  text-align: center;
 }
 
 .cards {
-    font-size: 25px;
-    padding: 10%;
-    display: inline-block;
-    text-align: center;
-    background-color: rgb(43, 43, 43);
+  font-size: 25px;
+  padding: 10%;
+  display: inline-block;
+  text-align: center;
+  background-color: rgb(43, 43, 43);
 }
 
 .music_m {
-    font-family: Mariupol-Regular;
-    display: inline-block;
-    margin-top: 1%;
-    margin-bottom: 2%;
-    margin-left: 5%;
-    margin-right: 5%;
+  font-family: Mariupol-Regular;
+  display: inline-block;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .vane_cards {
-    background-color: black;
+  background-color: black;
 }
 
 .news_font_1 {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .news_font_2 {
-    font-size: 19px;
+  font-size: 19px;
 }
 
 .news_font_3 {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .news_img_1 {
-    width: 400px;
+  width: 400px;
 }
 
 .under {
-    font-family: Mariupol-Regular;
-    font-size: 11px;
-    text-align: center;
-    line-height: 0.2;
-    margin-bottom: 2%;
-    margin-top: 6%;}
+  font-family: Mariupol-Regular;
+  font-size: 11px;
+  text-align: center;
+  line-height: 0.2;
+  margin-bottom: 2%;
+  margin-top: 6%;
+}
 
 @media (max-width: 1070px) {
-    .nav {
-        margin-left: 1%;
-        margin-right: 1%;
-    }
-    .navButton {
-        width: 127px;
-        height: 44px;
-    }
-    .header {
-        font-size: 30px;
-    }
-    .vane_cards {
-        text-align: center;
-    }
+  .nav {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .navButton {
+    width: 127px;
+    height: 44px;
+  }
+  .header {
+    font-size: 30px;
+  }
 
-.active {
+  .vane_cards {
+    background-color: black;
+  }
+
+  .active {
     font-size: 20px;
     width: 127px;
     height: 44px;
-}
+  }
 
-        .news {
-            font-size: 10px;
-            text-align: center;
-            display: inline-block;
-            padding-left: 10%;
-            padding-right: 10%;
-        }
-    
-        .news_text {
-            display: inline-block;
-            text-align: center;
-        }
-    
-        .news_font_1 {
-            font-size: 20px;
-        }
-    
-        .news_font_2 {
-            font-size: 14px;
-        }
-    
-        .news_font_3 {
-            font-size: 10px;
-        }
+  .news {
+    font-size: 10px;
+    text-align: center;
+    display: inline-block;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 
+  .news_text {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .news_font_1 {
+    font-size: 20px;
+  }
+
+  .news_font_2 {
+    font-size: 14px;
+  }
+
+  .news_font_3 {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 450px) {
-    .nav {
-        margin-left: 1%;
-        margin-right: 1%;
-    }
+  .nav {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
 
-    .navButton {
-        width: 117px;
-        height: 44px;
-    }
+  .main {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
 
-    .news {
-        font-size: 10px;
-        text-align: center;
-        display: inline-block;
-        padding-left: 10%;
-        padding-right: 10%;
-    }
+  .navButton {
+    width: 117px;
+    height: 44px;
+  }
 
-    .news_text {
-        display: inline-block;
-        text-align: center;
-    }
+  .news {
+    font-size: 10px;
+    text-align: center;
+    display: inline-block;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 
-    .news_font_1 {
-        font-size: 23px;
-    }
-    
-    .news_font_2 {
-         font-size: 17px;
-     }
-    
-    .news_font_3 {
-         font-size: 13px;
-    }
+  .news_text {
+    display: inline-block;
+    text-align: center;
+  }
 
-    .news_img_1 {
-        width: 260px;
-    }
+  .news_font_1 {
+    font-size: 23px;
+  }
 
-        .navButton {
-            width: 107px;
-            height: 37px;
-        }
+  .news_font_2 {
+    font-size: 17px;
+  }
 
-.active {
+  .news_font_3 {
+    font-size: 13px;
+  }
+
+  .news_img_1 {
+    width: 260px;
+  }
+
+  .navButton {
+    width: 107px;
+    height: 37px;
+  }
+
+  .active {
     font-size: 20px;
     width: 107px;
     height: 37px;
+  }
+
+  .nav {
+    margin-top: 10%;
+    margin-bottom: 8%;
+  }
+
+  .avatars {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .img_new {
+    width: 270px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .under {
+    margin-bottom: 6%;
+  }
+
+  .vane_cards {
+    text-align: center;
+  }
 }
-}
+
