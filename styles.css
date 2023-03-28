@@ -129,25 +129,25 @@ a {
   text-align: center;
 }
 
+.vane_cards {
+  background-color: black;
+  text-align: center;
+}
+
 .cards {
   font-size: 25px;
-  padding: 10%;
-  display: inline-block;
+  padding: 5%;
   text-align: center;
   background-color: rgb(43, 43, 43);
 }
 
 .music_m {
   font-family: Mariupol-Regular;
-  display: inline-block;
-  margin-top: 1%;
+  text-align: center;
+  margin-top: 2%;
   margin-bottom: 2%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.vane_cards {
-  background-color: black;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 .news_font_1 {
@@ -304,4 +304,3 @@ a {
     text-align: center;
   }
 }
-
