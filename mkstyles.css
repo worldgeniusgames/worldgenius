@@ -1,0 +1,492 @@
+/* Fonts */
+
+@font-face {
+  font-family: ShantellSans;
+  src: url(fonts/ShantellSans.ttf);
+}
+
+@font-face {
+  font-family: Mariupol-Regular;
+  src: url(fonts/Mariupol-Regular.ttf);
+}
+
+/* main */
+
+body {
+  margin: 0;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.a {
+  font-size: 19px;
+  font-family: ShantellSans;
+  color: #c92f2f;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.a:hover {
+  color: black;
+  font-size: 21px;
+}
+
+.banner {
+  width: 600px;
+  height: 155px;
+}
+
+.logo {
+  width: 50px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.main {
+  justify-content: center;
+  text-align: center;
+  display: block;
+}
+
+/* Footer style */
+
+.footer {
+  background-color: #c92f2f;
+  color: white;
+  font-family: Mariupol-Regular;
+  display: block;
+  font-size: 10px;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  line-height: 0.4em;
+  text-align: left;
+  margin-bottom: 0;
+  margin-top: 3%;
+}
+
+.f-im {
+  width: 30px;
+  margin-right: 2%;
+}
+
+.navbar {
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Buttons */
+
+.buttons {
+  border: white solid 3px;
+  border-radius: 6px;
+  background-color: #c92f2f;
+  color: white;
+  width: 120px;
+  height: 33px;
+  font-family: Mariupol-Regular;
+  font-size: 16px;
+  justify-content: center;
+  transition: 0.3s ease;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.buttons:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+/* Projects styles */
+
+.project {
+  background-color: #c92f2f;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.p-im {
+  width: 100px;
+  border-radius: 50%;
+  border: white solid 6px;
+}
+
+.p-im-dep {
+  width: 100px;
+  border-radius: 0%;
+  border: white solid 6px;
+}
+
+.p-head {
+  font-family: ShantellSans;
+  font-size: 29px;
+}
+
+.p-des {
+  font-family: Mariupol-Regular;
+  font-size: 17px;
+  line-height: 22px;
+  margin-bottom: 5%;
+}
+
+.pr_more {
+  display: inline-block;
+  justify-content: center;
+}
+
+/* About styles */
+
+.head-pr {
+  font-family: ShantellSans;
+  font-size: 50px;
+  color: #c92f2f;
+  margin-left: 26%;
+}
+
+.head-ab {
+  font-family: ShantellSans;
+  font-size: 50px;
+  color: #c92f2f;
+  margin-left: 6%;
+}
+
+.ab-main {
+  background-color: #c92f2f;
+  border-radius: 10px;
+  display: flex;
+  justify-content: start;
+  text-align: start;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.ab-des {
+  font-family: Mariupol-Regular;
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  line-height: 1.2em;
+}
+
+.ab-a {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  list-style: none;
+}
+
+/* Music card styles */
+
+.vane {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.music-card {
+  display: flex;
+  flex-direction: row;
+  background-color: #c92f2f;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  width: 380px;
+  height: 138px;
+  margin: 10px;
+  padding: 1%;
+}
+
+.music-card-image {
+  flex-basis: 40%;
+  margin-right: 3%;
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
+.music-card-image img {
+  width: 120px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.music-card-info {
+  flex-basis: 60%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Mariupol-Regular;
+}
+
+.music-card-title {
+  font-size: 24px;
+  margin: 0;
+  font-family: ShantellSans;
+}
+
+.music-card-artist,
+.music-card-date {
+  font-size: 16px;
+  margin: 5px 0;
+  margin-bottom: 8%;
+}
+
+.music-card-download {
+  padding: 10px;
+  background-color: #c92f2f;
+  color: #ffffff;
+  border: white solid 3px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: auto;
+  width: 120px;
+  height: 37px;
+  margin-top: 2%;
+  font-family: Mariupol-Regular;
+  transition: 0.3s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.music-card-download:hover {
+  background-color: #ffffff;
+  color: #c92f2f;
+  border: white solid 3px;
+  cursor: pointer;
+}
+
+.card-a {
+  font-size: 0;
+  width: 120px;
+  height: 40px;
+}
+
+.music-buttons {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Album styles */
+
+.album-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  border-radius: 6px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 5%;
+  margin-left: 6%;
+  margin-right: 6%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding-top: 3%;
+  padding-right: 3%;
+}
+
+.album-cover {
+  flex: 1 1 250px;
+  margin-right: 20px;
+}
+
+.album-cover img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 20px;
+  width: 250px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.album-info {
+  flex: 2 1 400px;
+  font-family: Mariupol-Regular;
+}
+
+.album-name {
+  font-size: 30px;
+  margin-top: 0;
+  font-family: ShantellSans;
+}
+
+.album-artist {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.album-date {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.track-list {
+  flex: 2 1 400px;
+  font-family: Mariupol-Regular;
+}
+
+.track-list h3 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.track-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.track-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2%;
+  text-align: start;
+  background-color: #c92f2f;
+  border-radius: 6px;
+  padding: 2%;
+  padding-left: 3%;
+  color: #ffffff;
+}
+
+.track-list li .track-number {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.track-list li .track-name {
+  font-size: 16px;
+}
+
+/* Adaptation */
+
+@media screen and (max-width: 600px) {
+  .banner {
+    width: 300px;
+    height: 77.5px;
+  }
+
+  .footer {
+    margin-top: 10%;
+  }
+
+  .logo {
+    margin-top: 5%;
+  }
+
+  .project {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+
+  .ab-main {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+
+  .ab-des {
+    font-size: 15px;
+    line-height: 1.3em;
+  }
+
+  .head-pr {
+    font-size: 40px;
+    margin-left: 6%;
+  }
+
+  .head-ab {
+    font-size: 40px;
+    margin-left: 6%;
+  }
+
+  .news-text {
+    font-size: 16px;
+    margin-left: 5%;
+    margin-right: 3%;
+    text-align: start;
+  }
+
+  .news-prev {
+    width: 250px;
+  }
+
+  .news-main {
+    flex-direction: column;
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+
+  .head-1-news {
+    font-size: 23px;
+  }
+
+  .head-2-news {
+    font-size: 18px;
+  }
+
+  .head-news {
+    line-height: 0.9em;
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+
+  .music-card-title {
+    font-size: 20px;
+  }
+
+  .music-card-image {
+    margin-left: 3%;
+  }
+
+  .album-cover img {
+    width: 240px;
+    margin-bottom: 6%;
+    margin-top: 6%;
+  }
+
+  .track-list {
+    margin-top: 5%;
+  }
+
+  .album-name {
+    font-size: 26px;
+  }
+
+  .track-list li .track-name {
+    font-size: 13px;
+  }
+}
